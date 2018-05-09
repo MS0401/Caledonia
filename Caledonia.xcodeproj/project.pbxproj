@@ -1,0 +1,952 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802606F81F03387B001EAB30 /* LelfMenuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802606F51F03387B001EAB30 /* LelfMenuViewCell.swift */; };
+		802606F91F03387B001EAB30 /* LelfMenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 802606F61F03387B001EAB30 /* LelfMenuViewCell.xib */; };
+		802606FA1F03387B001EAB30 /* LMOtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802606F71F03387B001EAB30 /* LMOtherViewController.swift */; };
+		802607021F0338A6001EAB30 /* LMSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802606FD1F0338A6001EAB30 /* LMSideBarController.m */; };
+		802607041F0338A6001EAB30 /* UIViewController+LMSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 802607001F0338A6001EAB30 /* UIViewController+LMSideBarController.m */; };
+		802607101F033987001EAB30 /* UIImage+LMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8026070F1F033987001EAB30 /* UIImage+LMExtension.m */; };
+		802607171F033A20001EAB30 /* LMSideBarDepthStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 802607141F033A20001EAB30 /* LMSideBarDepthStyle.m */; };
+		802607181F033A20001EAB30 /* LMSideBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 802607161F033A20001EAB30 /* LMSideBarStyle.m */; };
+		802607231F035709001EAB30 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802607221F035709001EAB30 /* SignUpViewController.swift */; };
+		8028496B1EFA7F2A00148821 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028496A1EFA7F2A00148821 /* SearchResultsController.swift */; };
+		80466C081EFC5741002401E0 /* TLTagsControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 80466C071EFC5741002401E0 /* TLTagsControl.m */; };
+		805E71491EF3DD5C00A8A648 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E71481EF3DD5C00A8A648 /* MapViewController.swift */; };
+		805E714B1EF45C8300A8A648 /* SharedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E714A1EF45C8300A8A648 /* SharedManager.swift */; };
+		8061CED71EFB96610099F480 /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061CED61EFB96610099F480 /* PersonalInformation.swift */; };
+		8061CEDB1EFB9B7C0099F480 /* TagInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061CEDA1EFB9B7C0099F480 /* TagInformation.swift */; };
+		8061CEDD1EFB9BF40099F480 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8061CEDC1EFB9BF40099F480 /* Location.swift */; };
+		8064A8131F02C37500E4E003 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064A8121F02C37500E4E003 /* SettingsViewController.swift */; };
+		8064A8151F02C39200E4E003 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064A8141F02C39200E4E003 /* NewPlaceViewController.swift */; };
+		8064A8171F02C3A200E4E003 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8064A8161F02C3A200E4E003 /* ProfileViewController.swift */; };
+		807AF94A1EF1C393003DC6EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807AF9491EF1C393003DC6EF /* AppDelegate.swift */; };
+		807AF94C1EF1C393003DC6EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807AF94B1EF1C393003DC6EF /* ViewController.swift */; };
+		807AF94F1EF1C393003DC6EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807AF94D1EF1C393003DC6EF /* Main.storyboard */; };
+		807AF9511EF1C393003DC6EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807AF9501EF1C393003DC6EF /* Assets.xcassets */; };
+		807AF9541EF1C393003DC6EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 807AF9521EF1C393003DC6EF /* LaunchScreen.storyboard */; };
+		807AF95F1EF1C393003DC6EF /* CaledoniaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807AF95E1EF1C393003DC6EF /* CaledoniaTests.swift */; };
+		807AF96A1EF1C393003DC6EF /* CaledoniaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807AF9691EF1C393003DC6EF /* CaledoniaUITests.swift */; };
+		808820D81EF72994009E8D9F /* dropDownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808820D71EF72994009E8D9F /* dropDownView.xib */; };
+		808AF1DD1EFC9C3600579B3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 808AF1DC1EFC9C3600579B3B /* GoogleService-Info.plist */; };
+		80A7F7581F018C650067F6F0 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A7F7571F018C650067F6F0 /* UIImage.swift */; };
+		80A7F75A1F018C800067F6F0 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A7F7591F018C800067F6F0 /* UIColor.swift */; };
+		80B6C3651F01E05A00BC6178 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B6C3641F01E05A00BC6178 /* SearchViewController.swift */; };
+		80BD40961F032AA4009E2144 /* LMLeftMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD40941F032AA4009E2144 /* LMLeftMenuViewController.swift */; };
+		80BD40971F032AA4009E2144 /* LMRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BD40951F032AA4009E2144 /* LMRootViewController.swift */; };
+		80CF14B21EF80AC300CBF2CE /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF14B11EF80AC300CBF2CE /* ImageCarouselView.swift */; };
+		80CF14B51EF872AC00CBF2CE /* DropDownInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF14B41EF872AC00CBF2CE /* DropDownInformation.swift */; };
+		80F75D051EF298E500AC03FE /* KeyboardAvoiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F75D031EF298E500AC03FE /* KeyboardAvoiding.swift */; };
+		80F75D061EF298E500AC03FE /* KeyboardDismissingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F75D041EF298E500AC03FE /* KeyboardDismissingView.swift */; };
+		80F75D0B1EF2A3AE00AC03FE /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F75D0A1EF2A3AE00AC03FE /* TabBarViewController.swift */; };
+		CF69A6596E694646BDBA01FE /* Pods_Caledonia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B61DC903281F340F5BF6BAD /* Pods_Caledonia.framework */; };
+		F943BE907E797BDCF8C69F05 /* Pods_CaledoniaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9E415D1E7313020C2BF928 /* Pods_CaledoniaUITests.framework */; };
+		FD9D1533662DFF0E108B8A5A /* Pods_CaledoniaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F2B83ED99967A3733C2887 /* Pods_CaledoniaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		807AF95B1EF1C393003DC6EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807AF93E1EF1C393003DC6EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807AF9451EF1C393003DC6EF;
+			remoteInfo = Caledonia;
+		};
+		807AF9661EF1C393003DC6EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 807AF93E1EF1C393003DC6EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 807AF9451EF1C393003DC6EF;
+			remoteInfo = Caledonia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E2CA5F0DF7C45DB05D8D9FA /* Pods-CaledoniaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaledoniaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaledoniaTests/Pods-CaledoniaTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E5DB033E3BFCD22C013E0EB /* Pods-Caledonia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caledonia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Caledonia/Pods-Caledonia.debug.xcconfig"; sourceTree = "<group>"; };
+		4B61DC903281F340F5BF6BAD /* Pods_Caledonia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Caledonia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		683922CF0E8A2F2417567470 /* Pods-CaledoniaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaledoniaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaledoniaTests/Pods-CaledoniaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		802606F51F03387B001EAB30 /* LelfMenuViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LelfMenuViewCell.swift; path = Controller/LMSideBar/LelfMenuViewCell.swift; sourceTree = "<group>"; };
+		802606F61F03387B001EAB30 /* LelfMenuViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LelfMenuViewCell.xib; path = Controller/LMSideBar/LelfMenuViewCell.xib; sourceTree = "<group>"; };
+		802606F71F03387B001EAB30 /* LMOtherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMOtherViewController.swift; path = Controller/LMSideBar/LMOtherViewController.swift; sourceTree = "<group>"; };
+		802606FC1F0338A6001EAB30 /* LMSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMSideBarController.h; path = Controller/LMSideBar/LMSideBarController/LMSideBarController.h; sourceTree = "<group>"; };
+		802606FD1F0338A6001EAB30 /* LMSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMSideBarController.m; path = Controller/LMSideBar/LMSideBarController/LMSideBarController.m; sourceTree = "<group>"; };
+		802606FF1F0338A6001EAB30 /* UIViewController+LMSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+LMSideBarController.h"; path = "Controller/LMSideBar/LMSideBarController/UIViewController+LMSideBarController.h"; sourceTree = "<group>"; };
+		802607001F0338A6001EAB30 /* UIViewController+LMSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+LMSideBarController.m"; path = "Controller/LMSideBar/LMSideBarController/UIViewController+LMSideBarController.m"; sourceTree = "<group>"; };
+		8026070E1F033987001EAB30 /* UIImage+LMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+LMExtension.h"; path = "Controller/LMSideBar/LMSideBarController/Vender/UIImage+LMExtension.h"; sourceTree = "<group>"; };
+		8026070F1F033987001EAB30 /* UIImage+LMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+LMExtension.m"; path = "Controller/LMSideBar/LMSideBarController/Vender/UIImage+LMExtension.m"; sourceTree = "<group>"; };
+		802607131F033A20001EAB30 /* LMSideBarDepthStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMSideBarDepthStyle.h; path = Controller/LMSideBar/LMSideBarController/LMSideBarStyles/LMSideBarDepthStyle.h; sourceTree = "<group>"; };
+		802607141F033A20001EAB30 /* LMSideBarDepthStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMSideBarDepthStyle.m; path = Controller/LMSideBar/LMSideBarController/LMSideBarStyles/LMSideBarDepthStyle.m; sourceTree = "<group>"; };
+		802607151F033A20001EAB30 /* LMSideBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LMSideBarStyle.h; path = Controller/LMSideBar/LMSideBarController/LMSideBarStyles/LMSideBarStyle.h; sourceTree = "<group>"; };
+		802607161F033A20001EAB30 /* LMSideBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LMSideBarStyle.m; path = Controller/LMSideBar/LMSideBarController/LMSideBarStyles/LMSideBarStyle.m; sourceTree = "<group>"; };
+		802607221F035709001EAB30 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = Controller/SignUpViewController.swift; sourceTree = "<group>"; };
+		8028496A1EFA7F2A00148821 /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchResultsController.swift; path = Controller/SearchResultsController.swift; sourceTree = "<group>"; };
+		80466C051EFC5741002401E0 /* Caledonia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Caledonia-Bridging-Header.h"; sourceTree = "<group>"; };
+		80466C061EFC5741002401E0 /* TLTagsControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLTagsControl.h; path = Model/TLTagsContol/TLTagsControl.h; sourceTree = "<group>"; };
+		80466C071EFC5741002401E0 /* TLTagsControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLTagsControl.m; path = Model/TLTagsContol/TLTagsControl.m; sourceTree = "<group>"; };
+		805E71481EF3DD5C00A8A648 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = Controller/MapViewController.swift; sourceTree = "<group>"; };
+		805E714A1EF45C8300A8A648 /* SharedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharedManager.swift; path = Model/SharedManager.swift; sourceTree = "<group>"; };
+		8061CED61EFB96610099F480 /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonalInformation.swift; path = Model/PersonalInformation.swift; sourceTree = "<group>"; };
+		8061CEDA1EFB9B7C0099F480 /* TagInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TagInformation.swift; path = Model/TagInformation.swift; sourceTree = "<group>"; };
+		8061CEDC1EFB9BF40099F480 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = Model/Location.swift; sourceTree = "<group>"; };
+		8064A8121F02C37500E4E003 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Controller/SettingsViewController.swift; sourceTree = "<group>"; };
+		8064A8141F02C39200E4E003 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewPlaceViewController.swift; path = Controller/NewPlaceViewController.swift; sourceTree = "<group>"; };
+		8064A8161F02C3A200E4E003 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = Controller/ProfileViewController.swift; sourceTree = "<group>"; };
+		807AF9461EF1C393003DC6EF /* Caledonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caledonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		807AF9491EF1C393003DC6EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		807AF94B1EF1C393003DC6EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		807AF94E1EF1C393003DC6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		807AF9501EF1C393003DC6EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		807AF9531EF1C393003DC6EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		807AF9551EF1C393003DC6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807AF95A1EF1C393003DC6EF /* CaledoniaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaledoniaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		807AF95E1EF1C393003DC6EF /* CaledoniaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaledoniaTests.swift; sourceTree = "<group>"; };
+		807AF9601EF1C393003DC6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		807AF9651EF1C393003DC6EF /* CaledoniaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaledoniaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		807AF9691EF1C393003DC6EF /* CaledoniaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaledoniaUITests.swift; sourceTree = "<group>"; };
+		807AF96B1EF1C393003DC6EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808820D71EF72994009E8D9F /* dropDownView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = dropDownView.xib; path = View/dropDownView.xib; sourceTree = "<group>"; };
+		808AF1DC1EFC9C3600579B3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80A7F7571F018C650067F6F0 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIImage.swift; path = Extension/UIImage.swift; sourceTree = "<group>"; };
+		80A7F7591F018C800067F6F0 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Extension/UIColor.swift; sourceTree = "<group>"; };
+		80B6C3641F01E05A00BC6178 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = Controller/SearchViewController.swift; sourceTree = "<group>"; };
+		80BD40941F032AA4009E2144 /* LMLeftMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMLeftMenuViewController.swift; path = Controller/LMSideBar/LMLeftMenuViewController.swift; sourceTree = "<group>"; };
+		80BD40951F032AA4009E2144 /* LMRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LMRootViewController.swift; path = Controller/LMSideBar/LMRootViewController.swift; sourceTree = "<group>"; };
+		80CF14B11EF80AC300CBF2CE /* ImageCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCarouselView.swift; path = View/ImageCarouselView.swift; sourceTree = "<group>"; };
+		80CF14B41EF872AC00CBF2CE /* DropDownInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownInformation.swift; path = Model/DropDownInformation.swift; sourceTree = "<group>"; };
+		80F75D031EF298E500AC03FE /* KeyboardAvoiding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardAvoiding.swift; path = KeyboardAvoiding/KeyboardAvoiding.swift; sourceTree = "<group>"; };
+		80F75D041EF298E500AC03FE /* KeyboardDismissingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardDismissingView.swift; path = KeyboardAvoiding/KeyboardDismissingView.swift; sourceTree = "<group>"; };
+		80F75D0A1EF2A3AE00AC03FE /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = Controller/TabBarViewController.swift; sourceTree = "<group>"; };
+		86A9A7AA0E46835F5D35FD11 /* Pods-Caledonia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Caledonia.release.xcconfig"; path = "Pods/Target Support Files/Pods-Caledonia/Pods-Caledonia.release.xcconfig"; sourceTree = "<group>"; };
+		AE9E415D1E7313020C2BF928 /* Pods_CaledoniaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaledoniaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F2B83ED99967A3733C2887 /* Pods_CaledoniaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaledoniaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88F238FE5ACA0778E717583 /* Pods-CaledoniaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaledoniaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaledoniaUITests/Pods-CaledoniaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F88E597C709B7CF7F37473A7 /* Pods-CaledoniaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaledoniaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaledoniaUITests/Pods-CaledoniaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		807AF9431EF1C393003DC6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF69A6596E694646BDBA01FE /* Pods_Caledonia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807AF9571EF1C393003DC6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9D1533662DFF0E108B8A5A /* Pods_CaledoniaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807AF9621EF1C393003DC6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F943BE907E797BDCF8C69F05 /* Pods_CaledoniaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7382BC3152CBBE2C37F5CD79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E5DB033E3BFCD22C013E0EB /* Pods-Caledonia.debug.xcconfig */,
+				86A9A7AA0E46835F5D35FD11 /* Pods-Caledonia.release.xcconfig */,
+				683922CF0E8A2F2417567470 /* Pods-CaledoniaTests.debug.xcconfig */,
+				0E2CA5F0DF7C45DB05D8D9FA /* Pods-CaledoniaTests.release.xcconfig */,
+				F88E597C709B7CF7F37473A7 /* Pods-CaledoniaUITests.debug.xcconfig */,
+				E88F238FE5ACA0778E717583 /* Pods-CaledoniaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		802606FB1F033883001EAB30 /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				8026070D1F0338FF001EAB30 /* Vender */,
+				8026070C1F0338E8001EAB30 /* LMSideBarStyles */,
+				802606FC1F0338A6001EAB30 /* LMSideBarController.h */,
+				802606FD1F0338A6001EAB30 /* LMSideBarController.m */,
+				802606FF1F0338A6001EAB30 /* UIViewController+LMSideBarController.h */,
+				802607001F0338A6001EAB30 /* UIViewController+LMSideBarController.m */,
+			);
+			name = SideBar;
+			sourceTree = "<group>";
+		};
+		8026070C1F0338E8001EAB30 /* LMSideBarStyles */ = {
+			isa = PBXGroup;
+			children = (
+				802607131F033A20001EAB30 /* LMSideBarDepthStyle.h */,
+				802607141F033A20001EAB30 /* LMSideBarDepthStyle.m */,
+				802607151F033A20001EAB30 /* LMSideBarStyle.h */,
+				802607161F033A20001EAB30 /* LMSideBarStyle.m */,
+			);
+			name = LMSideBarStyles;
+			sourceTree = "<group>";
+		};
+		8026070D1F0338FF001EAB30 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				8026070E1F033987001EAB30 /* UIImage+LMExtension.h */,
+				8026070F1F033987001EAB30 /* UIImage+LMExtension.m */,
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
+		80466C041EFC572A002401E0 /* TLTagsControl */ = {
+			isa = PBXGroup;
+			children = (
+				80466C061EFC5741002401E0 /* TLTagsControl.h */,
+				80466C071EFC5741002401E0 /* TLTagsControl.m */,
+				80466C051EFC5741002401E0 /* Caledonia-Bridging-Header.h */,
+			);
+			name = TLTagsControl;
+			sourceTree = "<group>";
+		};
+		807AF93D1EF1C393003DC6EF = {
+			isa = PBXGroup;
+			children = (
+				807AF9481EF1C393003DC6EF /* Caledonia */,
+				807AF95D1EF1C393003DC6EF /* CaledoniaTests */,
+				807AF9681EF1C393003DC6EF /* CaledoniaUITests */,
+				807AF9471EF1C393003DC6EF /* Products */,
+				7382BC3152CBBE2C37F5CD79 /* Pods */,
+				E0E0AAA6D5350C9C72855115 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		807AF9471EF1C393003DC6EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				807AF9461EF1C393003DC6EF /* Caledonia.app */,
+				807AF95A1EF1C393003DC6EF /* CaledoniaTests.xctest */,
+				807AF9651EF1C393003DC6EF /* CaledoniaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		807AF9481EF1C393003DC6EF /* Caledonia */ = {
+			isa = PBXGroup;
+			children = (
+				80A7F7561F018C1D0067F6F0 /* Extension */,
+				80F75D091EF2A34A00AC03FE /* Controller */,
+				80F75D081EF2A34400AC03FE /* View */,
+				80F75D071EF2A33800AC03FE /* Model */,
+				807AF9491EF1C393003DC6EF /* AppDelegate.swift */,
+				807AF9501EF1C393003DC6EF /* Assets.xcassets */,
+				807AF9521EF1C393003DC6EF /* LaunchScreen.storyboard */,
+				807AF9551EF1C393003DC6EF /* Info.plist */,
+				808AF1DC1EFC9C3600579B3B /* GoogleService-Info.plist */,
+			);
+			path = Caledonia;
+			sourceTree = "<group>";
+		};
+		807AF95D1EF1C393003DC6EF /* CaledoniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				807AF95E1EF1C393003DC6EF /* CaledoniaTests.swift */,
+				807AF9601EF1C393003DC6EF /* Info.plist */,
+			);
+			path = CaledoniaTests;
+			sourceTree = "<group>";
+		};
+		807AF9681EF1C393003DC6EF /* CaledoniaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				807AF9691EF1C393003DC6EF /* CaledoniaUITests.swift */,
+				807AF96B1EF1C393003DC6EF /* Info.plist */,
+			);
+			path = CaledoniaUITests;
+			sourceTree = "<group>";
+		};
+		80A7F7561F018C1D0067F6F0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				80A7F7571F018C650067F6F0 /* UIImage.swift */,
+				80A7F7591F018C800067F6F0 /* UIColor.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		80BD40931F032A78009E2144 /* LMSideBar */ = {
+			isa = PBXGroup;
+			children = (
+				802606FB1F033883001EAB30 /* SideBar */,
+				802606F51F03387B001EAB30 /* LelfMenuViewCell.swift */,
+				802606F61F03387B001EAB30 /* LelfMenuViewCell.xib */,
+				802606F71F03387B001EAB30 /* LMOtherViewController.swift */,
+				80BD40941F032AA4009E2144 /* LMLeftMenuViewController.swift */,
+				80BD40951F032AA4009E2144 /* LMRootViewController.swift */,
+			);
+			name = LMSideBar;
+			sourceTree = "<group>";
+		};
+		80F75D021EF298C700AC03FE /* KeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				80F75D031EF298E500AC03FE /* KeyboardAvoiding.swift */,
+				80F75D041EF298E500AC03FE /* KeyboardDismissingView.swift */,
+			);
+			name = KeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		80F75D071EF2A33800AC03FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80466C041EFC572A002401E0 /* TLTagsControl */,
+				805E714A1EF45C8300A8A648 /* SharedManager.swift */,
+				80F75D021EF298C700AC03FE /* KeyboardAvoiding */,
+				80CF14B41EF872AC00CBF2CE /* DropDownInformation.swift */,
+				8061CED61EFB96610099F480 /* PersonalInformation.swift */,
+				8061CEDA1EFB9B7C0099F480 /* TagInformation.swift */,
+				8061CEDC1EFB9BF40099F480 /* Location.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		80F75D081EF2A34400AC03FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80CF14B11EF80AC300CBF2CE /* ImageCarouselView.swift */,
+				807AF94D1EF1C393003DC6EF /* Main.storyboard */,
+				808820D71EF72994009E8D9F /* dropDownView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		80F75D091EF2A34A00AC03FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80BD40931F032A78009E2144 /* LMSideBar */,
+				8028496A1EFA7F2A00148821 /* SearchResultsController.swift */,
+				807AF94B1EF1C393003DC6EF /* ViewController.swift */,
+				80F75D0A1EF2A3AE00AC03FE /* TabBarViewController.swift */,
+				805E71481EF3DD5C00A8A648 /* MapViewController.swift */,
+				80B6C3641F01E05A00BC6178 /* SearchViewController.swift */,
+				8064A8121F02C37500E4E003 /* SettingsViewController.swift */,
+				8064A8141F02C39200E4E003 /* NewPlaceViewController.swift */,
+				8064A8161F02C3A200E4E003 /* ProfileViewController.swift */,
+				802607221F035709001EAB30 /* SignUpViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E0E0AAA6D5350C9C72855115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B61DC903281F340F5BF6BAD /* Pods_Caledonia.framework */,
+				C5F2B83ED99967A3733C2887 /* Pods_CaledoniaTests.framework */,
+				AE9E415D1E7313020C2BF928 /* Pods_CaledoniaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		807AF9451EF1C393003DC6EF /* Caledonia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807AF96E1EF1C393003DC6EF /* Build configuration list for PBXNativeTarget "Caledonia" */;
+			buildPhases = (
+				A1FF05F91712D4E7EAEF293E /* [CP] Check Pods Manifest.lock */,
+				807AF9421EF1C393003DC6EF /* Sources */,
+				807AF9431EF1C393003DC6EF /* Frameworks */,
+				807AF9441EF1C393003DC6EF /* Resources */,
+				74ECD106982EBB5086B76C16 /* [CP] Embed Pods Frameworks */,
+				7FBE2689048D26CC68D4ACCB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caledonia;
+			productName = Caledonia;
+			productReference = 807AF9461EF1C393003DC6EF /* Caledonia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		807AF9591EF1C393003DC6EF /* CaledoniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807AF9711EF1C393003DC6EF /* Build configuration list for PBXNativeTarget "CaledoniaTests" */;
+			buildPhases = (
+				B732328AB4361B5047B695B4 /* [CP] Check Pods Manifest.lock */,
+				807AF9561EF1C393003DC6EF /* Sources */,
+				807AF9571EF1C393003DC6EF /* Frameworks */,
+				807AF9581EF1C393003DC6EF /* Resources */,
+				6246491EC8B858D781905C7C /* [CP] Embed Pods Frameworks */,
+				2778DF5E28E9672411DE92E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807AF95C1EF1C393003DC6EF /* PBXTargetDependency */,
+			);
+			name = CaledoniaTests;
+			productName = CaledoniaTests;
+			productReference = 807AF95A1EF1C393003DC6EF /* CaledoniaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		807AF9641EF1C393003DC6EF /* CaledoniaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807AF9741EF1C393003DC6EF /* Build configuration list for PBXNativeTarget "CaledoniaUITests" */;
+			buildPhases = (
+				FE15BEE0D0A70B224CBEE61E /* [CP] Check Pods Manifest.lock */,
+				807AF9611EF1C393003DC6EF /* Sources */,
+				807AF9621EF1C393003DC6EF /* Frameworks */,
+				807AF9631EF1C393003DC6EF /* Resources */,
+				DBDAA01223A99DA964C5E63D /* [CP] Embed Pods Frameworks */,
+				69907C6ED712BF91EAE90B4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				807AF9671EF1C393003DC6EF /* PBXTargetDependency */,
+			);
+			name = CaledoniaUITests;
+			productName = CaledoniaUITests;
+			productReference = 807AF9651EF1C393003DC6EF /* CaledoniaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		807AF93E1EF1C393003DC6EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = For;
+				TargetAttributes = {
+					807AF9451EF1C393003DC6EF = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					807AF9591EF1C393003DC6EF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 807AF9451EF1C393003DC6EF;
+					};
+					807AF9641EF1C393003DC6EF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 807AF9451EF1C393003DC6EF;
+					};
+				};
+			};
+			buildConfigurationList = 807AF9411EF1C393003DC6EF /* Build configuration list for PBXProject "Caledonia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 807AF93D1EF1C393003DC6EF;
+			productRefGroup = 807AF9471EF1C393003DC6EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				807AF9451EF1C393003DC6EF /* Caledonia */,
+				807AF9591EF1C393003DC6EF /* CaledoniaTests */,
+				807AF9641EF1C393003DC6EF /* CaledoniaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807AF9441EF1C393003DC6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802606F91F03387B001EAB30 /* LelfMenuViewCell.xib in Resources */,
+				808820D81EF72994009E8D9F /* dropDownView.xib in Resources */,
+				807AF9541EF1C393003DC6EF /* LaunchScreen.storyboard in Resources */,
+				808AF1DD1EFC9C3600579B3B /* GoogleService-Info.plist in Resources */,
+				807AF9511EF1C393003DC6EF /* Assets.xcassets in Resources */,
+				807AF94F1EF1C393003DC6EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807AF9581EF1C393003DC6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807AF9631EF1C393003DC6EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2778DF5E28E9672411DE92E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaledoniaTests/Pods-CaledoniaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6246491EC8B858D781905C7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaledoniaTests/Pods-CaledoniaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69907C6ED712BF91EAE90B4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaledoniaUITests/Pods-CaledoniaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74ECD106982EBB5086B76C16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Caledonia/Pods-Caledonia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FBE2689048D26CC68D4ACCB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Caledonia/Pods-Caledonia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1FF05F91712D4E7EAEF293E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B732328AB4361B5047B695B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DBDAA01223A99DA964C5E63D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaledoniaUITests/Pods-CaledoniaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE15BEE0D0A70B224CBEE61E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		807AF9421EF1C393003DC6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802606FA1F03387B001EAB30 /* LMOtherViewController.swift in Sources */,
+				807AF94C1EF1C393003DC6EF /* ViewController.swift in Sources */,
+				80BD40971F032AA4009E2144 /* LMRootViewController.swift in Sources */,
+				805E71491EF3DD5C00A8A648 /* MapViewController.swift in Sources */,
+				8064A8171F02C3A200E4E003 /* ProfileViewController.swift in Sources */,
+				80F75D061EF298E500AC03FE /* KeyboardDismissingView.swift in Sources */,
+				802607021F0338A6001EAB30 /* LMSideBarController.m in Sources */,
+				80B6C3651F01E05A00BC6178 /* SearchViewController.swift in Sources */,
+				805E714B1EF45C8300A8A648 /* SharedManager.swift in Sources */,
+				80466C081EFC5741002401E0 /* TLTagsControl.m in Sources */,
+				802607101F033987001EAB30 /* UIImage+LMExtension.m in Sources */,
+				80BD40961F032AA4009E2144 /* LMLeftMenuViewController.swift in Sources */,
+				802607181F033A20001EAB30 /* LMSideBarStyle.m in Sources */,
+				80A7F75A1F018C800067F6F0 /* UIColor.swift in Sources */,
+				802607171F033A20001EAB30 /* LMSideBarDepthStyle.m in Sources */,
+				802607041F0338A6001EAB30 /* UIViewController+LMSideBarController.m in Sources */,
+				8061CED71EFB96610099F480 /* PersonalInformation.swift in Sources */,
+				8064A8151F02C39200E4E003 /* NewPlaceViewController.swift in Sources */,
+				80A7F7581F018C650067F6F0 /* UIImage.swift in Sources */,
+				8061CEDB1EFB9B7C0099F480 /* TagInformation.swift in Sources */,
+				8061CEDD1EFB9BF40099F480 /* Location.swift in Sources */,
+				80F75D051EF298E500AC03FE /* KeyboardAvoiding.swift in Sources */,
+				80F75D0B1EF2A3AE00AC03FE /* TabBarViewController.swift in Sources */,
+				80CF14B51EF872AC00CBF2CE /* DropDownInformation.swift in Sources */,
+				802607231F035709001EAB30 /* SignUpViewController.swift in Sources */,
+				80CF14B21EF80AC300CBF2CE /* ImageCarouselView.swift in Sources */,
+				8028496B1EFA7F2A00148821 /* SearchResultsController.swift in Sources */,
+				802606F81F03387B001EAB30 /* LelfMenuViewCell.swift in Sources */,
+				807AF94A1EF1C393003DC6EF /* AppDelegate.swift in Sources */,
+				8064A8131F02C37500E4E003 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807AF9561EF1C393003DC6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807AF95F1EF1C393003DC6EF /* CaledoniaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		807AF9611EF1C393003DC6EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				807AF96A1EF1C393003DC6EF /* CaledoniaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		807AF95C1EF1C393003DC6EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807AF9451EF1C393003DC6EF /* Caledonia */;
+			targetProxy = 807AF95B1EF1C393003DC6EF /* PBXContainerItemProxy */;
+		};
+		807AF9671EF1C393003DC6EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 807AF9451EF1C393003DC6EF /* Caledonia */;
+			targetProxy = 807AF9661EF1C393003DC6EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		807AF94D1EF1C393003DC6EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807AF94E1EF1C393003DC6EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		807AF9521EF1C393003DC6EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				807AF9531EF1C393003DC6EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		807AF96C1EF1C393003DC6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		807AF96D1EF1C393003DC6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		807AF96F1EF1C393003DC6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5DB033E3BFCD22C013E0EB /* Pods-Caledonia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Caledonia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.Caledonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Caledonia/Caledonia-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		807AF9701EF1C393003DC6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86A9A7AA0E46835F5D35FD11 /* Pods-Caledonia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Caledonia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.Caledonia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Caledonia/Caledonia-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		807AF9721EF1C393003DC6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683922CF0E8A2F2417567470 /* Pods-CaledoniaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaledoniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.CaledoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caledonia.app/Caledonia";
+			};
+			name = Debug;
+		};
+		807AF9731EF1C393003DC6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E2CA5F0DF7C45DB05D8D9FA /* Pods-CaledoniaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaledoniaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.CaledoniaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caledonia.app/Caledonia";
+			};
+			name = Release;
+		};
+		807AF9751EF1C393003DC6EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88E597C709B7CF7F37473A7 /* Pods-CaledoniaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CaledoniaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.CaledoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Caledonia;
+			};
+			name = Debug;
+		};
+		807AF9761EF1C393003DC6EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E88F238FE5ACA0778E717583 /* Pods-CaledoniaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CaledoniaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.CaledoniaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Caledonia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		807AF9411EF1C393003DC6EF /* Build configuration list for PBXProject "Caledonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807AF96C1EF1C393003DC6EF /* Debug */,
+				807AF96D1EF1C393003DC6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807AF96E1EF1C393003DC6EF /* Build configuration list for PBXNativeTarget "Caledonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807AF96F1EF1C393003DC6EF /* Debug */,
+				807AF9701EF1C393003DC6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807AF9711EF1C393003DC6EF /* Build configuration list for PBXNativeTarget "CaledoniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807AF9721EF1C393003DC6EF /* Debug */,
+				807AF9731EF1C393003DC6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807AF9741EF1C393003DC6EF /* Build configuration list for PBXNativeTarget "CaledoniaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				807AF9751EF1C393003DC6EF /* Debug */,
+				807AF9761EF1C393003DC6EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 807AF93E1EF1C393003DC6EF /* Project object */;
+}
